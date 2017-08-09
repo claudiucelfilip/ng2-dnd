@@ -23,6 +23,7 @@ export class DragImage {
                 // Create real image from string source
                 let imgScr: string = <string>this.imageElement;
                 this.imageElement = document.createElement('img');
+                
                 (<HTMLImageElement>this.imageElement).src = imgScr;
             }
         }
